@@ -1,8 +1,8 @@
 # Python
 
 Python est un langage de programmation très facile à prendre en main.
-Les fichiers contenant le code ont pour extension « .py ». Il suffit donc de
-taper « python programme.py » par exemple dans une invite de commandes pour
+Les fichiers contenant le code ont pour extension `.py`. Il suffit donc de
+taper `python programme.py` par exemple dans une invite de commandes pour
 éxecuter votre code.
 
 Une invite de commandes peut s'ouvrir de deux manières : clic droit puis
@@ -44,8 +44,6 @@ nom :
     nom = input('Entrez votre nom : ')
     print("Bonjour", nom, "!")
 ```
-
-\newpage
 
 # Répétitions
 
