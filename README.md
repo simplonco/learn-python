@@ -6,7 +6,7 @@ taper `python programme.py` par exemple dans une invite de commandes pour
 éxecuter votre code.
 
 Une invite de commandes peut s'ouvrir de deux manières : clic droit puis
-« ouvrir une invite de commandes » ou windows + r et taper « cmd ».
+`ouvrir une invite de commandes` ou windows + r et taper `cmd`.
 
 # Opérations arithmétiques
 
@@ -47,8 +47,8 @@ nom :
 
 # Répétitions
 
-Effectuer des répétitions est possible avec la boucle __for__. Cet exemple repète
-ainsi 5 fois l'instruction __print("Bonjour", nom, "!")__ :
+Effectuer des répétitions est possible avec la boucle `for`. Cet exemple repète
+ainsi 5 fois l'instruction `print("Bonjour", nom, "!")` :
 
 ```python
     nom = input('Entrez votre nom : ')
@@ -56,7 +56,7 @@ ainsi 5 fois l'instruction __print("Bonjour", nom, "!")__ :
         print("Bonjour", nom, "!")
 ```
 
-La variable __i__ contient le numéro de la répétition, celui-ci commence à 0. On
+La variable `i` contient le numéro de la répétition, celui-ci commence à 0. On
 peut s'en rendre compte et s'en servir ainsi :
 
 ```python
@@ -70,8 +70,6 @@ peut s'en rendre compte et s'en servir ainsi :
 * Afficher un rectangle de taille 4x5 composé de "x".
 * Afficher tous les nombres de à 100 à 1.
 * Afficher un triangle composé de 10 "o" au total.
-
-
 
 # Conditions
 
@@ -100,7 +98,6 @@ On peut utiliser des comparaisons :
         print("Vous pouvez y aller.")
 ```
 
-
 # Tableaux
 
 Les tableaux permettent de contenir plusieurs données d'un coup. Par exemple
@@ -125,7 +122,7 @@ On peut utiliser une boucle pour parcourir un tableau :
         print("Le gateau", classement[i], "a la place numéro", i+1)
 ```
 
-Si on a pas besoin du __i__, on peut tout simplement écrire :
+Si on a pas besoin du  `i`, on peut tout simplement écrire :
 
 ```python
     liste = ['framboise', 'noix', 'bûche de noël', 'fromage blanc']
@@ -138,9 +135,6 @@ Si on a pas besoin du __i__, on peut tout simplement écrire :
 
 * Écrire un programme qui demande 5 prénoms, les stocke dans un tableau, puis
 les affiche.
-
-
-\newpage
 
 # Chaînes de caractères
 
@@ -177,8 +171,6 @@ Une chaîne de caractères peut être découpée, donnant un tableau :
     for mot in texte:
         print(mot)
 ```
-
-\newpage
 
 # Dictionnaires
 
